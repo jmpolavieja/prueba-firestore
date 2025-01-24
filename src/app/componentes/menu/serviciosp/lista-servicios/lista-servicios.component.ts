@@ -1,8 +1,8 @@
 import { Component, inject } from '@angular/core';
-import { FirestoreService } from '../../servicios/firestore.service';
+import { FirestoreService } from '../../../../servicios/firestore.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { Serviciosp } from '../../shared/modelos/serviciosp';
+import { Serviciosp } from '../../../../shared/modelos/serviciosp';
 import { MatListModule } from '@angular/material/list';
 
 @Component({
